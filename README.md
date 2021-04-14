@@ -1,3 +1,5 @@
 # pipeline-manager
 
-[![build](https://github.com/TovarischSuhov/pipelines-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/TovarischSuhov/pipelines-manager/actions/workflows/ci.yml) [![Coverage Status](https://coveralls.io/repos/github/TovarischSuhov/pipelines-manager/badge.svg?branch=master)](https://coveralls.io/github/TovarischSuhov/pipelines-manager?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/TovarischSuhov/pipelines-manager)](https://goreportcard.com/report/github.com/TovarischSuhov/pipelines-manager) [![GitHub](https://img.shields.io/github/license/TovarischSuhov/pipelines-manager)](https://img.shields.io/github/license/TovarischSuhov/pipelines-manager)
+[![build](https://github.com/TovarischSuhov/pipelines-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/TovarischSuhov/pipelines-manager/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/TovarischSuhov/pipelines-manager)](https://goreportcard.com/report/github.com/TovarischSuhov/pipelines-manager)
+[![GitHub](https://img.shields.io/github/license/TovarischSuhov/pipelines-manager)](https://img.shields.io/github/license/TovarischSuhov/pipelines-manager)
