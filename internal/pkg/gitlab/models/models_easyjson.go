@@ -301,16 +301,16 @@ func easyjsonD2b7633eDecodeGithubComTovarischSuhovPipelineManagerInternalPkgGitl
 					in.AddError((*out.FinishedAt).UnmarshalJSON(data))
 				}
 			}
-		case "commited_at":
+		case "committed_at":
 			if in.IsNull() {
 				in.Skip()
-				out.CommitedAt = nil
+				out.CommittedAt = nil
 			} else {
-				if out.CommitedAt == nil {
-					out.CommitedAt = new(time.Time)
+				if out.CommittedAt == nil {
+					out.CommittedAt = new(time.Time)
 				}
 				if data := in.Raw(); in.Ok() {
-					in.AddError((*out.CommitedAt).UnmarshalJSON(data))
+					in.AddError((*out.CommittedAt).UnmarshalJSON(data))
 				}
 			}
 		case "duration":
@@ -435,12 +435,12 @@ func easyjsonD2b7633eEncodeGithubComTovarischSuhovPipelineManagerInternalPkgGitl
 		}
 	}
 	{
-		const prefix string = ",\"commited_at\":"
+		const prefix string = ",\"committed_at\":"
 		out.RawString(prefix)
-		if in.CommitedAt == nil {
+		if in.CommittedAt == nil {
 			out.RawString("null")
 		} else {
-			out.Raw((*in.CommitedAt).MarshalJSON())
+			out.Raw((*in.CommittedAt).MarshalJSON())
 		}
 	}
 	{
